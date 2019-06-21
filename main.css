@@ -1,0 +1,124 @@
+.container {
+    position: relative;
+    text-align: center;
+	color: rgb(151, 25, 109);
+	margin: 0;
+	max-width: none;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  body, html {
+    height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Ponorama.jpg");
+background-repeat: no-repeat;
+  height: 70vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#picture{
+	width:100px;
+	float: left;
+	padding-right: 10px;
+}
+
+#contactSection {
+	text-align: center;
+	background-color: #e4d6d6;
+	padding-bottom: 5rem;
+}
+
+#contactSection h1 {
+	color: white;
+	text-align:center;
+	font-family: 'Roboto Mono', monospace;
+	padding-top: 2rem;
+}
+
+#contactSection form .row {
+	max-width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contactSection .form-control {
+	margin: 2rem;
+	background-color: #222;
+	border: 1px solid #222;
+}
+
+#contactSection .form-control {
+	margin: 2rem;
+	background-color: #222;
+	border: 1px solid #222;
+	box-shadow: 1px solid #444;
+}
+
+#contactSection button {
+	background-color: #2b7ab7;
+	color: white;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+#contactSection button:hover {
+	background-color: #2b7ab7;
+	opacity: 0.8;
+	color: white;
+}
+
+#contactSection button:active,
+#contactSection button:focus {
+	background-color: #2b7ab7;
+	opacity: 0.6;
+	color: white;
+	box-shadow: 1px solid #444;
+}
+
+#contactSection i {
+	font-size: 5rem;
+	color:white;
+	padding: 2rem;
+	margin-top: 3rem;
+	transition: color 0.5s;
+	display: inline-block;
+}
+
+textarea {
+	margin-left: 20px;
+}
+
+#submit-btn {
+	margin: 20px;
+}
+
+#contactSection i:hover {
+	color: #2b7ab7;
+}
+
+.footerlinks img
+{
+ width:30px;
+ }
+
+#footerSection {
+text-align:center;	
+}
