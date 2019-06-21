@@ -46,6 +46,14 @@ background-repeat: no-repeat;
 	padding-right: 10px;
 }
 
+#creature{
+	width:75%;
+}
+
+#website{
+	width:100%;
+}
+
 #contactSection {
 	text-align: center;
 	background-color: #e4d6d6;
