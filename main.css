@@ -15,6 +15,12 @@
   body, html {
     height: 100%;
 }
+.navbar-light .navbar-nav .nav-link:hover { /* Navigation links hover effects */
+	color:blue;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.63);
+	border-radius: .95rem;
+	transition: 0.2s;
+ }
 
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Ponorama.jpg");
