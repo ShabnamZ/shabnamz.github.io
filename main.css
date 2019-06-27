@@ -41,14 +41,32 @@ background-repeat: no-repeat;
   color: white;
 }
 #picture{
-	width:100px;
+	width:120px;
 	float: left;
 	padding-right: 10px;
 }
-
-#creature{
-	width:75%;
+.projects{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 15px;
+	padding: 3px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.507);
+	border-radius: 50%;
+  }
+  .projects:hover{
+    opacity: 0.3;
+    transition: 0.4s ease-out;
+  }
+  ul#horizontal li { 
+    display:inline;
+    margin: center;
+    padding-left: 0;
 }
+  ul {
+	padding-inline-start: 0%;   
+	}
+	
 
 #website{
 	width:100%;
@@ -121,7 +139,8 @@ textarea {
 }
 
 #submit-btn {
-	margin: 20px;
+	margin: 15px;
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,5);
 }
 
 #contactSection i:hover {
@@ -135,4 +154,16 @@ textarea {
 
 #footerSection {
 text-align:center;	
+}
+.jumbotron-fluid{ 
+    background-color:#00FFFF;
+    color: blue;
+    border: 10px;
+    margin-bottom: 60px;
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,5);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+html{
+    scroll-behavior: smooth;
 }
