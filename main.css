@@ -15,8 +15,8 @@
   body, html {
     height: 100%;
 }
-.navbar-light .navbar-nav .nav-link:hover { /* Navigation links hover effects */
-	color:blue;
+.navbar-light .navbar-nav .nav-link:hover {
+	color:	#1E90FF;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.63);
 	border-radius: .95rem;
 	transition: 0.2s;
@@ -41,7 +41,7 @@ background-repeat: no-repeat;
   color: white;
 }
 #picture{
-	width:120px;
+	width:150px;
 	float: left;
 	padding-right: 10px;
 }
@@ -66,88 +66,23 @@ background-repeat: no-repeat;
   ul {
 	padding-inline-start: 0%;   
 	}
-	
-
-#website{
-	width:100%;
-}
-
-#contactSection {
-	text-align: center;
-	background-color: #e4d6d6;
-	padding-bottom: 5rem;
-}
-
-#contactSection h1 {
-	color: white;
-	text-align:center;
-	font-family: 'Roboto Mono', monospace;
-	padding-top: 2rem;
-}
-
-#contactSection form .row {
-	max-width: 50px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#contactSection .form-control {
-	margin: 2rem;
-	background-color: #222;
-	border: 1px solid #222;
-}
-
-#contactSection .form-control {
-	margin: 2rem;
-	background-color: #222;
-	border: 1px solid #222;
-	box-shadow: 1px solid #444;
-}
-
-#contactSection button {
-	background-color: #2b7ab7;
-	color: white;
-	opacity: 1;
-	transition: opacity 0.5s;
-}
-
-#contactSection button:hover {
-	background-color: #2b7ab7;
-	opacity: 0.8;
-	color: white;
-}
-
-#contactSection button:active,
-#contactSection button:focus {
-	background-color: #2b7ab7;
-	opacity: 0.6;
-	color: white;
-	box-shadow: 1px solid #444;
-}
-
-#contactSection i {
-	font-size: 5rem;
-	color:white;
-	padding: 2rem;
-	margin-top: 3rem;
-	transition: color 0.5s;
-	display: inline-block;
-}
 
 textarea {
 	margin-left: 20px;
 }
 
 #submit-btn {
-	margin: 15px;
+	margin: 10px;
 	box-shadow: 0 4px 16px 0 rgba(0,0,0,5);
+	width:100px;
+	height:50px;
 }
 
-#contactSection i:hover {
-	color: #2b7ab7;
+#contact :hover {
+	color: #4169E1;
 }
 
-.footerlinks img
+.links img
 {
  width:30px;
  }
@@ -156,7 +91,7 @@ textarea {
 text-align:center;	
 }
 .jumbotron-fluid{ 
-    background-color:#00FFFF;
+    background-color:#20B2AA;
     color: blue;
     border: 10px;
     margin-bottom: 60px;
