@@ -12,7 +12,7 @@ html{
 	  margin: 0;
 	  max-width: none;
   }
-
+ /* Navigation */
 .navbar-light .navbar-nav .nav-link:hover {
 	color: black;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.63);
@@ -34,7 +34,6 @@ html{
  /* Jumbotron Settings*/
  .jumbotron-fluid{ 
    background-color: white;
-   /* color: blue; */
    border: 10px;
    margin-bottom: 60px;
    box-shadow: 0 2px 10px 0 rgba(0,0,0,5);
@@ -43,6 +42,7 @@ html{
    margin-right: 4vw;
    margin-top: 2vw;
  }
+
 /* Particle.js  settings*/
 #particles-js {
   background: url(assets/Ponorama.jpg);
@@ -74,6 +74,7 @@ html{
   font-size: 25px;
   transform: translate(-50%, -50%);
 }
+
 /* About section */
 #picture{
   width:150px;
@@ -87,14 +88,11 @@ html{
   padding-top: 50px;
   font-size: 20px;
 }
-
 #about-me-div {
   text-align: right;
   padding-right:50px;
   padding-left: 50px;
-
 }
-
 #about-me-text {
   font-weight: 200;
   text-align: justify;
@@ -104,11 +102,11 @@ html{
   height: 375px;
   box-shadow: 1px 10px 10px;
 }
-
 @media only screen 
 and (max-width : 768px) {
-  #about-me-div {
-      text-align: center;
+  
+#about-me-div {
+ text-align: center;
   }
 }
 
@@ -121,7 +119,6 @@ and (max-width : 768px) {
   border: 1px solid black;
   box-shadow: 1px 4px 4px;
 }
-
 .skills li {
   padding-bottom: 10px;
   list-style: disc outside none;
@@ -129,7 +126,6 @@ and (max-width : 768px) {
   margin-left: 2em;
   text-align: left;
 }
-
 .skill-list-title {
   font-size: 30px;
   font-weight: 600;
@@ -148,48 +144,39 @@ and (max-width : 768px) {
   padding-top: 50px;
   padding-bottom: 80px;
 }
-
 .portfolio-img-div {
   text-align: center;
 }
-
 #portfolio img {
   width: 300px;
   height: 250px;
   border-radius: 3%;
 }
-
 .projects {
   margin-top: 50px;
 }
-
 .project-title {
   font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
-
 .project-cover {
   transition: .3s;
-  margin-bottom: 40px;
-  
+  margin-bottom: 40px;  
 }
-
 .project-cover:hover {
   transform: scale(1.25);
   position: relative;
   z-index: 1; 
   background-color: white;
 }
-
 .project-caption span {
   visibility: visible;
 }
-
 .project-caption:hover span {
   visibility: hidden;
 }
-
+ /* Divider */
 hr{
   width: 50%; 
 }
@@ -284,8 +271,8 @@ button {
   border: 1px solid black;
   transition: .3s;
 }
-/* Footer */
 
+/* Footer */
 #footerSection {
 text-align:center;	
 }
